@@ -1,0 +1,38 @@
+.head { 
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    width: 1000px;
+    background-color: silver;
+    border: 1px dotted black;
+    margin-left: 150px;
+    
+}
+
+.content { 
+    display: flex;
+    margin-left: 160px;
+    height: 190px;
+    width: 500px;
+    background-color: silver;
+    border: 1px dotted black;
+    margin-left: 150px;
+    
+}
+p.bold {
+    font-weight: bold;
+  }
+
+#button-like {
+    background-color: rgb(150, 150, 72);
+    color: black;
+}
+#button-definition {
+    background-color: rgb(40, 137, 30);
+    color: black;
+    width: auto;
+}
+
+#practiotioner {
+    text-align: center;
+}
