@@ -1,0 +1,154 @@
+*{
+    font-family: cursive;
+}
+
+.nav{
+    background-color: skyblue;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    height: 100px;
+    width: auto;
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#nav-title{
+    font-weight: bold;
+    font-size: 45px;
+    color: white;
+    align-items: center;
+    margin-right: auto;
+    padding-left: 150px;
+
+}
+.Cities{
+    list-style: none;
+    font-size: 30px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 200px;
+    margin-right: 2px;
+    color: white;
+    text-align: center;
+    align-items: center;
+    float: right;
+}
+li{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.Main{
+        font-weight: bold;
+        font-size: 20px;
+        color: black;
+        align-items: center;
+        margin-right: auto;
+        padding-left: 150px;
+        align-items: center;
+        display: flex;
+        justify-content: flex-end;
+}
+h2{
+    margin-right: auto;
+    padding-left: 150px;
+}
+
+label{
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-end;
+    color: black;
+    text-align: center;
+    align-items: center;
+    float: right;
+}
+
+select{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 100px;
+    color: black;
+    text-align: center;
+    align-items: center;
+    float: right;
+}
+
+#container{
+    height: 600px;
+    width: 1000px;
+    background-color: white;
+    border-top: 2px solid black;
+    margin-left: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.today,.tomorrow, .friday, .saturday{
+    margin-left: 50px;
+    margin-bottom: 50px;
+    height: 500px;
+    width: 200px;
+    background-color: gainsboro;
+    color:black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    border-radius: 50%;
+    height: 150px;
+}
+h5{
+    font-size: 20px;
+    color: black;
+}
+
+.red{
+color: red;
+}
+
+.blue{
+color: blue;
+}
+
+#alert{
+    background-color: gainsboro;
+    color: black;
+    position: fixed;
+    margin-left: 200px;
+    bottom: 0;
+    height: 125px;
+    width: 1000px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;
+    align-items: center;
+}
+h4,p {
+    font-size: 15px;
+    color: black;
+text-align: center;
+display: block;
+}
+
+.cookie{
+    height: 80px;
+    padding: 45px 30px 45px 35px;
+    float: left;
+}
+button {
+    color: black;
+    background-color: lightblue;
+    border-radius: 2px;
+    border-color: black;
+    box-shadow: 10px 5px 5px black;
+    float: right;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DojoWeather</title>
+    <link rel="stylesheet" href="style.css">    
+</head>
+
+<body>
+    <div class="nav">
+        <h1 id="nav-title">DojoWeather</h1>
+        <ul class="Cities">
+            <li onclick="alert('Loading Weather Report...')">Burbank</a></li>
+            <li onclick="alert('Loading Weather Report...')">Chicago</a></li>
+            <li onclick="alert('Loading Weather Report...')">Dallas</a></li>
+        </ul>
+    </div>
+    <div class="Main">
+        <h2>San Jose</h2>
+        <label>Show temperature in:</label> 
+        <select name="temperature" onchange="convertToCelcius(this.value)">
+            <option value="Celcius">Celcius</option>
+            <option value="Fahrenheit">Farenheit</option>
+        </select>
+    </div>
+    <div id="container">
+        <div class="today">
+            <h3>Today</h3>
+            <img src="some_rain.png" alt="some rain icon">
+            <h5>some rain</h5>
+            <div>
+                <p id="temp1" class="red">24° Celcius</p>
+            </div>
+        </div>
+        <div class="tomorrow">
+            <h3>Tomorrow</h3>
+            <img src="some_sun.png" alt="some sun icon">
+            <h5>some sun</h5>
+            <div>
+                <p id="temp2" class="red">27° Celcius</p>
+            </div>
+        </div>
+        <div class="friday">
+            <h3>Friday</h3>
+            <img src="some_clouds.png" alt="some clouds icon">
+            <h5>some clouds</h5>
+            <div>
+                <p id="temp3" class="red">21° Celcius</p>
+            </div>
+        </div>
+        <div class="saturday">
+            <h3>Saturday</h3>
+            <img src="some_sun.png" alt="some sun icon">
+            <h5>some sun</h5>
+            <div>
+                <p id="temp4" class="red">26° Celcius</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="alert">
+        <img class="cookie" src="cookie.png" alt="cookie icon">
+        <div>
+            <h4>Stop! Cookie time</h4>
+            <p>We use cookies (sadly not the edible ones) to personalize
+                <br> content and ads, to provide social media features and to
+                <br> analyse our traffic.
+                <a href="#">Read more...</a>
+            </p>
+        </div>
+        <button onclick="accept('#alert')">I Accept</button>
+    </div>
+
+    <script src="script.js"></script>
+    </div>
+</body>
+
+</html>
